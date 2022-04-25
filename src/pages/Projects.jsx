@@ -1,8 +1,8 @@
 import React from "react";
-import projectImage1 from "../assets/pexels-fauxels-3183150.jpg";
-import projectImage2 from "../assets/pexels-fauxels-3183153.jpg";
-import projectImage3 from "../assets/pexels-monstera-9430882.jpg";
-import projectImage4 from "../assets/pexels-pixabay-372787.jpg";
+import projectImage1 from "../assets/projects/pexels-fauxels-3183150.jpg";
+import projectImage2 from "../assets/projects/pexels-fauxels-3183153.jpg";
+import projectImage3 from "../assets/projects/pexels-monstera-9430882.jpg";
+import projectImage4 from "../assets/projects/pexels-pixabay-372787.jpg";
 
 function Projects() {
   return (
