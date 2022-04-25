@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "./logo.svg";
+import Maria from "./pages/Maria";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <Routes>{/* <Route path="/" element={<Home />}></Route> */}</Routes>
+      <Routes><Route path="/maria" element={<Maria />}></Route>{/* <Route path="/" element={<Home />}></Route> */}</Routes>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
