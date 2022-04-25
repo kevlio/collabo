@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
      <h1><Link to="/petter">Men jarå!</Link> </h1>
+     <h1><Link to="/maria">Maria test page</Link> </h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/maria" element={<Maria />} />
