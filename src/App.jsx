@@ -1,7 +1,8 @@
-import { useState } from "react";
 import logo from "./logo.svg";
+import Maria from "./pages/Maria";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import Petter from "./pages/Petter";
 
@@ -48,6 +49,19 @@ function App() {
       </header>
     </div>
   );
+=======
+import Home from "./pages/Home";
+
+function App() {
+	return (
+		<div className="App">
+			<Routes>
+				<Route path="/" element={<Home />}/>
+        <Route path="/maria" element={<Maria />}/>
+			</Routes>
+		</div>
+	
+>>>>>>> origin/develop
 }
 
 export default App;
