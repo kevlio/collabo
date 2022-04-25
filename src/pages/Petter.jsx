@@ -6,7 +6,7 @@ function Petter() {
 
   return (
     <div className="App">
-     
+     <h1>Petters assnygga sida</h1>
     </div>
   );
 }
