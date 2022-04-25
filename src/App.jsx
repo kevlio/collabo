@@ -2,13 +2,18 @@ import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Petter from "./pages/Petter";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <Routes>{/* <Route path="/" element={<Home />}></Route> */}</Routes>
+      <Routes>
+        <Route path="/petter" element={<Petter />} />
+      </Routes>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
@@ -18,6 +23,9 @@ function App() {
           </button>
         </p>
         <p>JOCKE IN DA HOUSE!!</p>
+        <nav>
+        <h1><Link to="/petter">Men jarå!</Link> </h1>
+      </nav>
         <p>
           <a
             className="App-link"
