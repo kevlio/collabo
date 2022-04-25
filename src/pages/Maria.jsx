@@ -1,7 +1,7 @@
 import React from "react";
 
 function Maria() {
-  return <div>Maria</div>;
+  return <div className="mariia">Maria</div>;
 }
 
 export default Maria;
