@@ -1,13 +1,17 @@
-import { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Contact from './pages/Contact';
 import { Routes, Route } from 'react-router-dom';
+import "./App.css";
+import Home from "./pages/Home";
+import Maria from "./pages/Maria";
+import Contact from './pages/Contact';
 
 function App() {
   return (
     <div className="App">
-      <Routes>{<Route path="/contact" element={<Contact />}></Route>}</Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/maria" element={<Maria />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
