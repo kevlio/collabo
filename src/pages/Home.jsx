@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import "../home.css";
 function Home() {
 	return (
@@ -13,6 +14,7 @@ function Home() {
 				<p>Wanna see me live code for u ?</p>
 				<button>Click here!</button>
 			</div>
+			<Footer />
 		</>
 	);
 }
