@@ -15,6 +15,7 @@ function Navbar() {
       <Stack as="nav" direction="row">
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
+        <Link to="/maria">Maria</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </Stack>
